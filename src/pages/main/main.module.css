@@ -1,0 +1,19 @@
+.fade {
+    background-color: #fecaca;
+    color: white;
+    transition: background-color 1s;
+}
+
+.fade:hover {
+    background-color: #dc2626;
+}
+
+.fade:focus,
+.fade:active {
+    background-color: #dc2626;
+    transition: none;
+}
+
+body {
+    width: 100%;
+}
